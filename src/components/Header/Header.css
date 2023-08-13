@@ -1,0 +1,79 @@
+.header {
+  width: 1852px;
+  height: 80px;
+  flex-shrink: 0;
+  background: var(--grey-0, #F5F5F5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  width: 150px;
+  height: 22.852px;
+  flex-shrink: 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.cart-button {
+  display: flex;
+  align-items: center;
+  color: #BDBDBD;
+  font-family: "Font Awesome 5 Free";
+  font-size: 22px;
+  font-weight: 900;
+  border: none;
+  line-height: 1;
+  margin-right: 20px;
+}
+
+.cart-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  background: var(--green-2, #27AE60);
+  width: 20px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 365px;
+  height: 40px;
+  padding: 0px 15px;
+  border-radius: 8px;
+  border: 2px solid var(--grey-100, #E0E0E0);
+  background: #FFF;
+  margin-right: 10px;
+}
+
+.search-button {
+  height: 40px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 2px solid #27AE60;
+  background: #27AE60;
+  cursor: pointer;
+  color: white;
+}
